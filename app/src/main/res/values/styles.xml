@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Definisikan tema umum dengan warna merah-putih -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Warna background umum untuk aplikasi -->
+        <item name="android:background">@drawable/ef</item> <!-- Gambar Background -->
+        <item name="android:textColorPrimary">#D32F2F</item> <!-- Merah untuk teks utama -->
+        <item name="android:textColorSecondary">#FFFFFF</item> <!-- Putih untuk teks sekunder -->
+    </style>
+
+    <!-- Gaya untuk EditText -->
+    <style name="EditTextStyle">
+        <item name="android:backgroundTint">#D32F2F</item> <!-- Merah -->
+        <item name="android:textColor">#000000</item> <!-- Hitam untuk teks -->
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:elevation">2dp</item>
+    </style>
+
+    <!-- Gaya untuk Button -->
+    <style name="ButtonStyle">
+        <item name="android:textColor">#FFFFFF</item> <!-- Teks putih -->
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:backgroundTint">#D32F2F</item> <!-- Putih -->
+    </style>
+
+    <!-- Gaya untuk tombol Daftar -->
+    <style name="ButtonDaftarStyle">
+        <item name="android:textColor">#D32F2F</item> <!-- Merah -->
+        <item name="android:backgroundTint">#FFFFFF</item> <!-- Putih -->
+    </style>
+
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green_accent">#8BC34A</color> <!-- Hijau muda -->
+    <color name="blue_light">#E3F2FD</color> <!-- Biru laut muda -->
+    <color name="blue_light_accent">#2196F3</color> <!-- Aksen biru -->
+
+</resources>

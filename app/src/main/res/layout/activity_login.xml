@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@drawable/background_image">
+    <ImageView
+        android:id="@+id/imageviewLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/round_image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo"
+        android:clipToOutline="true"
+        android:clickable="true" />
+
+
+
+    <EditText
+        android:id="@+id/editTextIdSiswa"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="ID Siswa" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:onClick="login" />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Daftar"
+        android:onClick="openRegister" />
+
+
+</LinearLayout>

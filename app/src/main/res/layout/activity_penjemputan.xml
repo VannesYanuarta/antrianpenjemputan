@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@drawable/background_image">
+
+    <!-- Nomor Antrian -->
+    <TextView
+        android:id="@+id/textViewNomorAntrian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nomor Antrian: "
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:paddingBottom="20dp" />
+
+    <!-- Jam Mulai -->
+    <TextView
+        android:id="@+id/textViewJamMulai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jam Mulai: "
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Jam Selesai -->
+    <TextView
+        android:id="@+id/textViewJamSelesai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jam Selesai: "
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Waktu Real Time -->
+    <TextView
+        android:id="@+id/textViewWaktuRealTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Waktu Sekarang: "
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"/>
+
+
+    <!-- Tombol Set Reminder -->
+    <Button
+        android:id="@+id/buttonReminder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Reminder"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
